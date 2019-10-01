@@ -294,6 +294,7 @@ public class RoutingProfile {
                         prepareCore = coreOpts.getBoolean(VAL_ENABLED);
                         if (!prepareCore)
                             args.put(KEY_PREPARE_CH_WEIGHTINGS, "no");
+
                     }
 
 
