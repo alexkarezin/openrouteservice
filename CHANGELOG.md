@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 - Fixed way surface/type encoding issue ([#677](https://github.com/GIScience/openrouteservice/issues/677))
 - Querying shortest weighting can now use CH shortest preparation if available
 ### Changed
+- Read elevation tags from pbf data
 - Refactor the algorithm selection process
 ### Deprecated
 

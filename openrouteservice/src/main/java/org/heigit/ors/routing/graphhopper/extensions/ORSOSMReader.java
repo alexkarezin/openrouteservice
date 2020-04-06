@@ -412,5 +412,12 @@ public class ORSOSMReader extends OSMReader {
 		procCntx.finish();
 	}
 
-
+	@Override
+	protected double getElevation(ReaderNode node) {
+		double ele = node.getEle();
+		if (Double.isNaN(ele)) {
+			return super.getElevation(node);
+		}
+		return ele;
+	}
 }
